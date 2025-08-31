@@ -234,6 +234,9 @@ export interface EnvironmentVariables {
   REDIS_URL?: string
   VERCEL_ENV?: string
   ANALYZE?: string
+
+  // 新增 UUID_REDIRECT
+  UUID_REDIRECT?: string | boolean
 }
 
 // 导出所有类型
